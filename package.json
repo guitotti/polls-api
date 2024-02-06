@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
     "@types/node": "^20.11.16",
+    "eslint": "^8.56.0",
     "prisma": "^5.9.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
