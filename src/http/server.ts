@@ -5,7 +5,7 @@ import websocket from '@fastify/websocket'
 import { createPoll } from './routes/create-poll'
 import { getPoll } from './routes/get-poll'
 import { voteOnPoll } from './routes/vote-on-poll'
-import { pollResults } from './ws/poll-results'
+import { pollResults } from '../ws/poll-results'
 
 const app = fastify()
 
